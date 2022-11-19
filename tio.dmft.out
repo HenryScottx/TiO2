@@ -1,0 +1,391 @@
+Reading the config file dmft_config.ini
+-------------------------
+General parameters:
+seedname             ['tio_wannier']
+h_int_type           density_density
+U                    [5.0]
+J                    [0.64]
+beta                 40.0
+n_iter_dmft          10  
+dc                   True
+dc_type              0   
+prec_mu              0.0001
+dc_dmft              True
+solver_type          cthyb
+n_l                  21  
+n_iw                 1025
+n_tau                10001
+jobname              ['b10-U3.6']
+h5_save_freq         1   
+sigma_mix            1.0 
+g0_mix               1.0 
+calc_energies        True
+block_threshold      0.001
+ratio_F4_F2          ['none']
+diag_delta           False
+csc                  False
+magnetic             False
+h_field              0.0 
+energy_shift_orbitals none
+g0_mix_type          linear
+block_suppress_orbital_symm False
+enforce_off_diag     False
+load_sigma           False
+noise_level_initial_sigma 0.0 
+occ_conv_crit        -1  
+gimp_conv_crit       -1  
+g0_conv_crit         -1  
+sigma_conv_crit      -1  
+fixed_mu_value       none
+mu_update_freq       1   
+dft_mu               none
+mu_mix_const         1.0 
+mu_mix_per_occupation_offset 0.0 
+set_rot              none
+oneshot_postproc_gamma_file False
+measure_chi          none
+measure_chi_insertions 100 
+mu_gap_gb2_threshold none
+cthyb_delta_interface False
+legendre_fit         True
+store_solver         True
+config_file          dmft_config.ini
+-------------------------
+Solver parameters:
+length_cycle         40  
+n_warmup_cycles      5000
+imag_threshold       1e-06
+measure_density_matrix True
+off_diag_threshold   0.0 
+measure_G_l          False
+move_double          True
+measure_pert_order   False
+move_shift           False
+perform_tail_fit     False
+n_cycles             2000000
+use_norm_as_weight   True
+-------------------------
+DFT parameters:
+-------------------------
+Advanced parameters, don't change them unless you know what you are doing:
+dc_factor            none
+dc_fixed_value       none
+dc_fixed_occ         none
+dc_nominal           False
+dc_U                 [5.0]
+dc_J                 [0.64]
+map_solver_struct    none
+1 DMFT calculation will be made for the following files: ['tio_wannier']
+calculation is performed in subfolder: b10-U3.6
+################################################################################
+starting the DMFT calculation for tio_wannier
+################################################################################
+Dichotomy adjustment of Chemical Potential to obtain Total Density = 48.000000 +/- 0.000100
+Warning: Imaginary part in density will be ignored (1.043112299164346e-09)
+Warning: Imaginary part in density will be ignored (7.764628278411512e-10)
+    Chemical Potential = 0.500000  
+    Total Density = -0.001056
+Warning: Imaginary part in density will be ignored (5.720335157315398e-10)
+    Chemical Potential = 1.000000  
+    Total Density = -0.000922
+Warning: Imaginary part in density will be ignored (4.1674027029879575e-10)
+    Chemical Potential = 1.500000  
+    Total Density = -0.000802
+Warning: Imaginary part in density will be ignored (2.9998060616519333e-10)
+    Chemical Potential = 2.000000  
+    Total Density = -0.000694
+Warning: Imaginary part in density will be ignored (2.1298443467302704e-10)
+    Chemical Potential = 2.500000  
+    Total Density = -0.000597
+Warning: Imaginary part in density will be ignored (1.4901566158083293e-10)
+    Chemical Potential = 3.000000  
+    Total Density = 0.017912
+Warning: Imaginary part in density will be ignored (1.0264254694346786e-10)
+    Chemical Potential = 3.500000  
+    Total Density = 0.749449
+Warning: Imaginary part in density will be ignored (6.932241562514982e-11)
+    Chemical Potential = 4.000000  
+    Total Density = 2.902977
+Warning: Imaginary part in density will be ignored (4.578505826702234e-11)
+    Chemical Potential = 4.500000  
+    Total Density = 6.301011
+Warning: Imaginary part in density will be ignored (2.9443007123601154e-11)
+    Chemical Potential = 5.000000  
+    Total Density = 8.781415
+Warning: Imaginary part in density will be ignored (1.824868340324205e-11)
+    Chemical Potential = 5.500000  
+    Total Density = 10.586148
+Warning: Imaginary part in density will be ignored (1.0734320130574695e-11)
+    Chemical Potential = 6.000000  
+    Total Density = 13.055812
+Warning: Imaginary part in density will be ignored (5.663179863806841e-12)
+    Chemical Potential = 6.500000  
+    Total Density = 15.758367
+Warning: Imaginary part in density will be ignored (2.4702995838174055e-12)
+    Chemical Potential = 7.000000  
+    Total Density = 18.771210
+Warning: Imaginary part in density will be ignored (4.809336777202263e-13)
+    Chemical Potential = 7.500000  
+    Total Density = 21.174451
+Warning: Imaginary part in density will be ignored (7.031925702076835e-13)
+    Chemical Potential = 8.000000  
+    Total Density = 23.441024
+Warning: Imaginary part in density will be ignored (1.3779897814642155e-12)
+    Chemical Potential = 8.500000  
+    Total Density = 23.967882
+Warning: Imaginary part in density will be ignored (1.6182244199222598e-12)
+    Chemical Potential = 9.000000  
+    Total Density = 23.999993
+Warning: Imaginary part in density will be ignored (1.6371649609752261e-12)
+    Chemical Potential = 9.500000  
+    Total Density = 24.000016
+Warning: Imaginary part in density will be ignored (1.4657954937964852e-12)
+    Chemical Potential = 10.000000  
+    Total Density = 24.000041
+Warning: Imaginary part in density will be ignored (9.135709057725032e-13)
+    Chemical Potential = 10.500000  
+    Total Density = 24.186364
+Warning: Imaginary part in density will be ignored (3.668324727316181e-14)
+    Chemical Potential = 11.000000  
+    Total Density = 26.379027
+Warning: Imaginary part in density will be ignored (1.509344520195464e-12)
+    Chemical Potential = 11.500000  
+    Total Density = 29.871965
+Warning: Imaginary part in density will be ignored (4.0510313101204464e-12)
+    Chemical Potential = 12.000000  
+    Total Density = 33.526198
+Warning: Imaginary part in density will be ignored (8.154368053418394e-12)
+    Chemical Potential = 12.500000  
+    Total Density = 35.672429
+Warning: Imaginary part in density will be ignored (1.432344003996218e-11)
+    Chemical Potential = 13.000000  
+    Total Density = 36.019818
+Warning: Imaginary part in density will be ignored (2.367466333490859e-11)
+    Chemical Potential = 13.500000  
+    Total Density = 36.801164
+Warning: Imaginary part in density will be ignored (3.750654386851916e-11)
+    Chemical Potential = 14.000000  
+    Total Density = 38.276808
+Warning: Imaginary part in density will be ignored (5.729046841943286e-11)
+    Chemical Potential = 14.500000  
+    Total Density = 39.987802
+Warning: Imaginary part in density will be ignored (8.515226751601131e-11)
+    Chemical Potential = 15.000000  
+    Total Density = 42.296421
+Warning: Imaginary part in density will be ignored (1.2382179461756799e-10)
+    Chemical Potential = 15.500000  
+    Total Density = 43.817079
+Warning: Imaginary part in density will be ignored (1.7688574019409673e-10)
+    Chemical Potential = 16.000000  
+    Total Density = 43.999520
+Warning: Imaginary part in density will be ignored (2.486117065625266e-10)
+    Chemical Potential = 16.500000  
+    Total Density = 44.000831
+Warning: Imaginary part in density will be ignored (3.4445086906507594e-10)
+    Chemical Potential = 17.000000  
+    Total Density = 44.000957
+Warning: Imaginary part in density will be ignored (4.709040920872857e-10)
+    Chemical Potential = 17.500000  
+    Total Density = 44.001097
+Warning: Imaginary part in density will be ignored (6.360314876411798e-10)
+    Chemical Potential = 18.000000  
+    Total Density = 44.001251
+Warning: Imaginary part in density will be ignored (8.495636330459423e-10)
+    Chemical Potential = 18.500000  
+    Total Density = 44.001420
+Warning: Imaginary part in density will be ignored (1.1230552575034114e-09)
+    Chemical Potential = 19.000000  
+    Total Density = 44.001605
+Warning: Imaginary part in density will be ignored (1.4703263109791107e-09)
+    Chemical Potential = 19.500000  
+    Total Density = 44.001807
+Warning: Imaginary part in density will be ignored (1.907744745256324e-09)
+    Chemical Potential = 20.000000  
+    Total Density = 44.002027
+Warning: Imaginary part in density will be ignored (2.4544632362231527e-09)
+    Chemical Potential = 20.500000  
+    Total Density = 44.002265
+Warning: Imaginary part in density will be ignored (3.1330191670128757e-09)
+    Chemical Potential = 21.000000  
+    Total Density = 44.002522
+Warning: Imaginary part in density will be ignored (3.969411493008677e-09)
+    Chemical Potential = 21.500000  
+    Total Density = 44.002799
+Warning: Imaginary part in density will be ignored (4.993592352418483e-09)
+    Chemical Potential = 22.000000  
+    Total Density = 44.003097
+Warning: Imaginary part in density will be ignored (6.240417528494168e-09)
+    Chemical Potential = 22.500000  
+    Total Density = 44.003417
+Warning: Imaginary part in density will be ignored (7.74924994759934e-09)
+    Chemical Potential = 23.000000  
+    Total Density = 44.003759
+Warning: Imaginary part in density will be ignored (9.565327161204447e-09)
+    Chemical Potential = 23.500000  
+    Total Density = 44.004124
+Warning: Imaginary part in density will be ignored (1.1739751136235725e-08)
+    Chemical Potential = 24.000000  
+    Total Density = 44.004513
+Warning: Imaginary part in density will be ignored (1.4330445013546202e-08)
+    Chemical Potential = 24.500000  
+    Total Density = 44.004928
+Warning: Imaginary part in density will be ignored (1.7402286341892926e-08)
+    Chemical Potential = 25.000000  
+    Total Density = 44.005367
+Warning: Imaginary part in density will be ignored (2.1028457832661847e-08)
+    Chemical Potential = 25.500000  
+    Total Density = 44.005833
+Warning: Imaginary part in density will be ignored (2.5290313926750163e-08)
+    Chemical Potential = 26.000000  
+    Total Density = 44.006327
+Warning: Imaginary part in density will be ignored (3.027828394833353e-08)
+    Chemical Potential = 26.500000  
+    Total Density = 44.006848
+Warning: Imaginary part in density will be ignored (3.609297918379841e-08)
+    Chemical Potential = 27.000000  
+    Total Density = 44.007397
+Warning: Imaginary part in density will be ignored (4.284537689687018e-08)
+    Chemical Potential = 27.500000  
+    Total Density = 44.007977
+Warning: Imaginary part in density will be ignored (5.065797569890174e-08)
+    Chemical Potential = 28.000000  
+    Total Density = 44.008586
+Warning: Imaginary part in density will be ignored (5.966490501782234e-08)
+    Chemical Potential = 28.500000  
+    Total Density = 44.009227
+Warning: Imaginary part in density will be ignored (7.001345051578192e-08)
+    Chemical Potential = 29.000000  
+    Total Density = 44.009899
+Warning: Imaginary part in density will be ignored (8.186450146472244e-08)
+    Chemical Potential = 29.500000  
+    Total Density = 44.010603
+Warning: Imaginary part in density will be ignored (9.539258940609773e-08)
+    Chemical Potential = 30.000000  
+    Total Density = 44.011341
+Warning: Imaginary part in density will be ignored (1.1078765942868844e-07)
+    Chemical Potential = 30.500000  
+    Total Density = 44.012113
+Warning: Imaginary part in density will be ignored (1.2825524154828756e-07)
+    Chemical Potential = 31.000000  
+    Total Density = 44.012919
+Warning: Imaginary part in density will be ignored (1.4801746958778004e-07)
+    Chemical Potential = 31.500000  
+    Total Density = 44.013761
+Warning: Imaginary part in density will be ignored (1.703132499290685e-07)
+    Chemical Potential = 32.000000  
+    Total Density = 44.014638
+Warning: Imaginary part in density will be ignored (1.953992830155531e-07)
+    Chemical Potential = 32.500000  
+    Total Density = 44.015553
+Warning: Imaginary part in density will be ignored (2.2355109142957962e-07)
+    Chemical Potential = 33.000000  
+    Total Density = 44.016505
+Warning: Imaginary part in density will be ignored (2.5506279870806623e-07)
+    Chemical Potential = 33.500000  
+    Total Density = 44.017495
+Warning: Imaginary part in density will be ignored (2.9024798074694507e-07)
+    Chemical Potential = 34.000000  
+    Total Density = 44.018524
+Warning: Imaginary part in density will be ignored (3.2944042996157704e-07)
+    Chemical Potential = 34.500000  
+    Total Density = 44.019592
+Warning: Imaginary part in density will be ignored (3.7299453474209275e-07)
+    Chemical Potential = 35.000000  
+    Total Density = 44.020701
+Warning: Imaginary part in density will be ignored (4.2128546317273664e-07)
+    Chemical Potential = 35.500000  
+    Total Density = 44.021850
+Warning: Imaginary part in density will be ignored (4.7470959747670455e-07)
+    Chemical Potential = 36.000000  
+    Total Density = 44.023041
+Warning: Imaginary part in density will be ignored (5.336847454402642e-07)
+    Chemical Potential = 36.500000  
+    Total Density = 44.024274
+Warning: Imaginary part in density will be ignored (5.986507145842792e-07)
+    Chemical Potential = 37.000000  
+    Total Density = 44.025550
+Warning: Imaginary part in density will be ignored (6.700685354545542e-07)
+    Chemical Potential = 37.500000  
+    Total Density = 44.026869
+Warning: Imaginary part in density will be ignored (7.484215494824334e-07)
+    Chemical Potential = 38.000000  
+    Total Density = 44.028232
+Warning: Imaginary part in density will be ignored (8.342144923629077e-07)
+    Chemical Potential = 38.500000  
+    Total Density = 44.029640
+Warning: Imaginary part in density will be ignored (9.279736191456848e-07)
+    Chemical Potential = 39.000000  
+    Total Density = 44.031092
+Warning: Imaginary part in density will be ignored (1.0302464355700876e-06)
+    Chemical Potential = 39.500000  
+    Total Density = 44.032591
+Warning: Imaginary part in density will be ignored (1.1416011842660944e-06)
+    Chemical Potential = 40.000000  
+    Total Density = 44.034135
+Warning: Imaginary part in density will be ignored (1.2626262251512464e-06)
+    Chemical Potential = 40.500000  
+    Total Density = 44.035726
+Warning: Imaginary part in density will be ignored (1.3939299189516555e-06)
+    Chemical Potential = 41.000000  
+    Total Density = 44.037365
+Warning: Imaginary part in density will be ignored (1.5361390103679605e-06)
+    Chemical Potential = 41.500000  
+    Total Density = 44.039051
+Warning: Imaginary part in density will be ignored (1.6898985177331362e-06)
+    Chemical Potential = 42.000000  
+    Total Density = 44.040786
+Warning: Imaginary part in density will be ignored (1.8558701403957243e-06)
+    Chemical Potential = 42.500000  
+    Total Density = 44.042569
+Warning: Imaginary part in density will be ignored (2.0347314067774072e-06)
+    Chemical Potential = 43.000000  
+    Total Density = 44.044402
+Warning: Imaginary part in density will be ignored (2.227174056860101e-06)
+    Chemical Potential = 43.500000  
+    Total Density = 44.046284
+Warning: Imaginary part in density will be ignored (2.433902784095459e-06)
+    Chemical Potential = 44.000000  
+    Total Density = 44.048217
+Warning: Imaginary part in density will be ignored (2.6556333039398722e-06)
+    Chemical Potential = 44.500000  
+    Total Density = 44.050200
+Warning: Imaginary part in density will be ignored (2.8930910172633805e-06)
+    Chemical Potential = 45.000000  
+    Total Density = 44.052234
+Warning: Imaginary part in density will be ignored (3.1470085555403146e-06)
+    Chemical Potential = 45.500000  
+    Total Density = 44.054319
+Warning: Imaginary part in density will be ignored (3.4181245183625866e-06)
+    Chemical Potential = 46.000000  
+    Total Density = 44.056456
+Warning: Imaginary part in density will be ignored (3.7071800431724186e-06)
+    Chemical Potential = 46.500000  
+    Total Density = 44.058645
+Warning: Imaginary part in density will be ignored (4.014917135676962e-06)
+    Chemical Potential = 47.000000  
+    Total Density = 44.060886
+Warning: Imaginary part in density will be ignored (4.342076073759284e-06)
+    Chemical Potential = 47.500000  
+    Total Density = 44.063179
+Warning: Imaginary part in density will be ignored (4.689392378953492e-06)
+    Chemical Potential = 48.000000  
+    Total Density = 44.065526
+Warning: Imaginary part in density will be ignored (5.057594233175151e-06)
+    Chemical Potential = 48.500000  
+    Total Density = 44.067926
+Warning: Imaginary part in density will be ignored (5.447398754536893e-06)
+    Chemical Potential = 49.000000  
+    Total Density = 44.070379
+Warning: Imaginary part in density will be ignored (5.8595093378337285e-06)
+    Chemical Potential = 49.500000  
+    Total Density = 44.072886
+Warning: Imaginary part in density will be ignored (6.29461256638346e-06)
+    Chemical Potential = 50.000000  
+    Total Density = 44.075446
+Warning: Imaginary part in density will be ignored (6.7533739444390095e-06)
+    Chemical Potential = 50.500000  
+    Total Density = 44.078061
+    0.000000 < Chemical Potential < 50.500000
+    -0.001203 < Total Density < 44.078061
+    FAILURE to adjust Chemical Potential to the value 48.000000 after 101 iterations.
+    FAILURE returning (None, None) due to failure.
